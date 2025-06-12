@@ -1,0 +1,73 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django SQLite DB
+db.sqlite3
+db.sqlite3-journal
+
+# If you're using .env files for secrets
+.env
+.env.*
+
+# Django migrations (optional: only if you don't want to track them)
+# **/*.pyc is already handled above
+# Uncomment below only if you're regenerating migrations often
+# **/migrations/
+# !**/migrations/__init__.py
+
+# Media and static files
+/media/
+/staticfiles/
+/static/
+
+# VS Code settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Pycharm
+.idea/
+
+# Test results
+*.log
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# mypy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Celery beat schedule
+celerybeat-schedule
+
+# Pipenv
+Pipfile.lock
+
+# Build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+
+# Django migrations
+**/migrations/*.pyc
+**/migrations/__pycache__/
